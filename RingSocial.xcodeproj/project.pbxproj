@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88E600F71ED54B9300736140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E600F61ED54B9300736140 /* AppDelegate.swift */; };
+		88E600F91ED54B9300736140 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E600F81ED54B9300736140 /* ViewController.swift */; };
+		88E600FC1ED54B9300736140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E600FA1ED54B9300736140 /* Main.storyboard */; };
+		88E600FF1ED54B9300736140 /* RingSocial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88E600FD1ED54B9300736140 /* RingSocial.xcdatamodeld */; };
+		88E601011ED54B9300736140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E601001ED54B9300736140 /* Assets.xcassets */; };
+		88E601041ED54B9300736140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E601021ED54B9300736140 /* LaunchScreen.storyboard */; };
+		88E6010F1ED54B9300736140 /* RingSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E6010E1ED54B9300736140 /* RingSocialTests.swift */; };
+		88E6011A1ED54B9300736140 /* RingSocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E601191ED54B9300736140 /* RingSocialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88E6010B1ED54B9300736140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88E600EB1ED54B9300736140 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E600F21ED54B9300736140;
+			remoteInfo = RingSocial;
+		};
+		88E601161ED54B9300736140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88E600EB1ED54B9300736140 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E600F21ED54B9300736140;
+			remoteInfo = RingSocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88E600F31ED54B9300736140 /* RingSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E600F61ED54B9300736140 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88E600F81ED54B9300736140 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88E600FB1ED54B9300736140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88E600FE1ED54B9300736140 /* RingSocial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RingSocial.xcdatamodel; sourceTree = "<group>"; };
+		88E601001ED54B9300736140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88E601031ED54B9300736140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88E601051ED54B9300736140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E6010A1ED54B9300736140 /* RingSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E6010E1ED54B9300736140 /* RingSocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingSocialTests.swift; sourceTree = "<group>"; };
+		88E601101ED54B9300736140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E601151ED54B9300736140 /* RingSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E601191ED54B9300736140 /* RingSocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingSocialUITests.swift; sourceTree = "<group>"; };
+		88E6011B1ED54B9300736140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88E600F01ED54B9300736140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E601071ED54B9300736140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E601121ED54B9300736140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88E600EA1ED54B9300736140 = {
+			isa = PBXGroup;
+			children = (
+				88E600F51ED54B9300736140 /* RingSocial */,
+				88E6010D1ED54B9300736140 /* RingSocialTests */,
+				88E601181ED54B9300736140 /* RingSocialUITests */,
+				88E600F41ED54B9300736140 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88E600F41ED54B9300736140 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88E600F31ED54B9300736140 /* RingSocial.app */,
+				88E6010A1ED54B9300736140 /* RingSocialTests.xctest */,
+				88E601151ED54B9300736140 /* RingSocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88E600F51ED54B9300736140 /* RingSocial */ = {
+			isa = PBXGroup;
+			children = (
+				88E600F61ED54B9300736140 /* AppDelegate.swift */,
+				88E600F81ED54B9300736140 /* ViewController.swift */,
+				88E600FA1ED54B9300736140 /* Main.storyboard */,
+				88E601001ED54B9300736140 /* Assets.xcassets */,
+				88E601021ED54B9300736140 /* LaunchScreen.storyboard */,
+				88E601051ED54B9300736140 /* Info.plist */,
+				88E600FD1ED54B9300736140 /* RingSocial.xcdatamodeld */,
+			);
+			path = RingSocial;
+			sourceTree = "<group>";
+		};
+		88E6010D1ED54B9300736140 /* RingSocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				88E6010E1ED54B9300736140 /* RingSocialTests.swift */,
+				88E601101ED54B9300736140 /* Info.plist */,
+			);
+			path = RingSocialTests;
+			sourceTree = "<group>";
+		};
+		88E601181ED54B9300736140 /* RingSocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88E601191ED54B9300736140 /* RingSocialUITests.swift */,
+				88E6011B1ED54B9300736140 /* Info.plist */,
+			);
+			path = RingSocialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88E600F21ED54B9300736140 /* RingSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E6011E1ED54B9300736140 /* Build configuration list for PBXNativeTarget "RingSocial" */;
+			buildPhases = (
+				88E600EF1ED54B9300736140 /* Sources */,
+				88E600F01ED54B9300736140 /* Frameworks */,
+				88E600F11ED54B9300736140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RingSocial;
+			productName = RingSocial;
+			productReference = 88E600F31ED54B9300736140 /* RingSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88E601091ED54B9300736140 /* RingSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E601211ED54B9300736140 /* Build configuration list for PBXNativeTarget "RingSocialTests" */;
+			buildPhases = (
+				88E601061ED54B9300736140 /* Sources */,
+				88E601071ED54B9300736140 /* Frameworks */,
+				88E601081ED54B9300736140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88E6010C1ED54B9300736140 /* PBXTargetDependency */,
+			);
+			name = RingSocialTests;
+			productName = RingSocialTests;
+			productReference = 88E6010A1ED54B9300736140 /* RingSocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88E601141ED54B9300736140 /* RingSocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E601241ED54B9300736140 /* Build configuration list for PBXNativeTarget "RingSocialUITests" */;
+			buildPhases = (
+				88E601111ED54B9300736140 /* Sources */,
+				88E601121ED54B9300736140 /* Frameworks */,
+				88E601131ED54B9300736140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88E601171ED54B9300736140 /* PBXTargetDependency */,
+			);
+			name = RingSocialUITests;
+			productName = RingSocialUITests;
+			productReference = 88E601151ED54B9300736140 /* RingSocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88E600EB1ED54B9300736140 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Dakshesh patel";
+				TargetAttributes = {
+					88E600F21ED54B9300736140 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					88E601091ED54B9300736140 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 88E600F21ED54B9300736140;
+					};
+					88E601141ED54B9300736140 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 88E600F21ED54B9300736140;
+					};
+				};
+			};
+			buildConfigurationList = 88E600EE1ED54B9300736140 /* Build configuration list for PBXProject "RingSocial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88E600EA1ED54B9300736140;
+			productRefGroup = 88E600F41ED54B9300736140 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E600F21ED54B9300736140 /* RingSocial */,
+				88E601091ED54B9300736140 /* RingSocialTests */,
+				88E601141ED54B9300736140 /* RingSocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88E600F11ED54B9300736140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E601041ED54B9300736140 /* LaunchScreen.storyboard in Resources */,
+				88E601011ED54B9300736140 /* Assets.xcassets in Resources */,
+				88E600FC1ED54B9300736140 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E601081ED54B9300736140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E601131ED54B9300736140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88E600EF1ED54B9300736140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E600F91ED54B9300736140 /* ViewController.swift in Sources */,
+				88E600F71ED54B9300736140 /* AppDelegate.swift in Sources */,
+				88E600FF1ED54B9300736140 /* RingSocial.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E601061ED54B9300736140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E6010F1ED54B9300736140 /* RingSocialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E601111ED54B9300736140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E6011A1ED54B9300736140 /* RingSocialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88E6010C1ED54B9300736140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88E600F21ED54B9300736140 /* RingSocial */;
+			targetProxy = 88E6010B1ED54B9300736140 /* PBXContainerItemProxy */;
+		};
+		88E601171ED54B9300736140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88E600F21ED54B9300736140 /* RingSocial */;
+			targetProxy = 88E601161ED54B9300736140 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88E600FA1ED54B9300736140 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88E600FB1ED54B9300736140 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88E601021ED54B9300736140 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88E601031ED54B9300736140 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88E6011C1ED54B9300736140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88E6011D1ED54B9300736140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88E6011F1ED54B9300736140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RingSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdentities.RingSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		88E601201ED54B9300736140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RingSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdentities.RingSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		88E601221ED54B9300736140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RingSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdentities.RingSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingSocial.app/RingSocial";
+			};
+			name = Debug;
+		};
+		88E601231ED54B9300736140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RingSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdentities.RingSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingSocial.app/RingSocial";
+			};
+			name = Release;
+		};
+		88E601251ED54B9300736140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RingSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdentities.RingSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RingSocial;
+			};
+			name = Debug;
+		};
+		88E601261ED54B9300736140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RingSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdentities.RingSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RingSocial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88E600EE1ED54B9300736140 /* Build configuration list for PBXProject "RingSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E6011C1ED54B9300736140 /* Debug */,
+				88E6011D1ED54B9300736140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88E6011E1ED54B9300736140 /* Build configuration list for PBXNativeTarget "RingSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E6011F1ED54B9300736140 /* Debug */,
+				88E601201ED54B9300736140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88E601211ED54B9300736140 /* Build configuration list for PBXNativeTarget "RingSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E601221ED54B9300736140 /* Debug */,
+				88E601231ED54B9300736140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88E601241ED54B9300736140 /* Build configuration list for PBXNativeTarget "RingSocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E601251ED54B9300736140 /* Debug */,
+				88E601261ED54B9300736140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		88E600FD1ED54B9300736140 /* RingSocial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				88E600FE1ED54B9300736140 /* RingSocial.xcdatamodel */,
+			);
+			currentVersion = 88E600FE1ED54B9300736140 /* RingSocial.xcdatamodel */;
+			path = RingSocial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88E600EB1ED54B9300736140 /* Project object */;
+}
