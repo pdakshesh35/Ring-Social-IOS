@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="UserCell" id="gTV-IL-0wX" customClass="UsersCell" customModule="RingSocial" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="117" height="213"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="117" height="213"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="2tD-gv-qfe">
+                        <rect key="frame" x="0.0" y="0.0" width="117" height="213"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="imdaksh" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58S-xY-xgY">
+                        <rect key="frame" x="3" y="148" width="111" height="65"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="65" id="Iy2-w6-qYc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="58S-xY-xgY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="3" id="0pI-dq-kY0"/>
+                <constraint firstAttribute="trailing" secondItem="58S-xY-xgY" secondAttribute="trailing" constant="3" id="4ze-8P-mgX"/>
+                <constraint firstItem="2tD-gv-qfe" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="7xR-Na-Z17"/>
+                <constraint firstAttribute="bottom" secondItem="58S-xY-xgY" secondAttribute="bottom" id="GwT-gb-DW0"/>
+                <constraint firstAttribute="bottom" secondItem="2tD-gv-qfe" secondAttribute="bottom" id="KgN-1C-wlF"/>
+                <constraint firstAttribute="trailing" secondItem="2tD-gv-qfe" secondAttribute="trailing" id="eFA-To-KM5"/>
+                <constraint firstItem="2tD-gv-qfe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="tDa-v9-jXK"/>
+            </constraints>
+            <size key="customSize" width="117" height="213"/>
+            <connections>
+                <outlet property="userimg" destination="2tD-gv-qfe" id="HrS-YT-63p"/>
+                <outlet property="username" destination="58S-xY-xgY" id="zIL-sZ-xVd"/>
+            </connections>
+            <point key="canvasLocation" x="-8.5" y="133.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bg" width="1280" height="720"/>
+    </resources>
+</document>

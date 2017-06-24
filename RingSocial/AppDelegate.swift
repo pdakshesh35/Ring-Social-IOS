@@ -33,9 +33,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                 UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
             application.registerUserNotificationSettings(settings)
             application.registerForRemoteNotifications()
+            
         }
         
          FirebaseApp.configure()
+        
         
          let storyboard = UIStoryboard(name: "Main", bundle: nil)
         if let personalinfo = UserDefaults.standard.value(forKey: PROFILEINFO_KEY) {
@@ -71,6 +73,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                      fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
         if Auth.auth().canHandleNotification(notification) {
             completionHandler(UIBackgroundFetchResult.noData)
+            print(notification)
             return
         }
         // This notification is not auth related, developer should handle it.

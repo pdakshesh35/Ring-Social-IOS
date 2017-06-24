@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25A0E2AE8D89B2929248DCEC /* Pods_RingSocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA87FE79C30F1FD0E65C3FEB /* Pods_RingSocialUITests.framework */; };
+		377C9DB03644AA43BA5F7389 /* Pods_RingSocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5239ABBD92832E2DE95C214 /* Pods_RingSocialTests.framework */; };
+		56DE5B049FE5294969943D0A /* Pods_RingSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C85B3CADC49E8CCCD0C8A3 /* Pods_RingSocial.framework */; };
+		880D31C11EF875A70070EF09 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D31BF1EF875A70070EF09 /* Camera.swift */; };
+		880D31C21EF875A70070EF09 /* Camera.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880D31C01EF875A70070EF09 /* Camera.xib */; };
+		880D31C41EF9A56F0070EF09 /* PostImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D31C31EF9A56F0070EF09 /* PostImage.swift */; };
+		880D31C91EFB42CB0070EF09 /* SnapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D31C71EFB42CB0070EF09 /* SnapVC.swift */; };
+		880D31CA1EFB42CB0070EF09 /* SnapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880D31C81EFB42CB0070EF09 /* SnapVC.xib */; };
+		880D31CC1EFB45FC0070EF09 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D31CB1EFB45FC0070EF09 /* ChatViewController.swift */; };
+		880D32121EFC73FA0070EF09 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D32111EFC73FA0070EF09 /* MainVC.swift */; };
+		880D32141EFC74F60070EF09 /* FilterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880D32131EFC74F60070EF09 /* FilterCollectionViewCell.xib */; };
+		880D32181EFC84620070EF09 /* SnapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D32161EFC84620070EF09 /* SnapCell.swift */; };
+		880D32191EFC84620070EF09 /* SnapCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880D32171EFC84620070EF09 /* SnapCell.xib */; };
+		880D321C1EFCCECC0070EF09 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D321A1EFCCECC0070EF09 /* ChatVC.swift */; };
+		880D321D1EFCCECC0070EF09 /* ChatVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880D321B1EFCCECC0070EF09 /* ChatVC.xib */; };
+		881EA2E71EF1F21E00F8986D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 881EA2E61EF1F21E00F8986D /* GoogleService-Info.plist */; };
+		882A96CA1EFD906F00333EF5 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882A96C81EFD906F00333EF5 /* ChatCell.swift */; };
+		882A96CB1EFD906F00333EF5 /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882A96C91EFD906F00333EF5 /* ChatCell.xib */; };
+		882A96CE1EFD971900333EF5 /* ChatStoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882A96CC1EFD971900333EF5 /* ChatStoryViewCell.swift */; };
+		882A96CF1EFD971900333EF5 /* ChatStoryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882A96CD1EFD971900333EF5 /* ChatStoryViewCell.xib */; };
+		882A96D11EFDC5EC00333EF5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882A96D01EFDC5EC00333EF5 /* Message.swift */; };
+		882A96D31EFE0F7C00333EF5 /* TimeManagment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882A96D21EFE0F7C00333EF5 /* TimeManagment.swift */; };
+		882A96D51EFE0FB400333EF5 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882A96D41EFE0FB400333EF5 /* DateExtension.swift */; };
+		882A96D81EFE1F8E00333EF5 /* UsersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882A96D61EFE1F8E00333EF5 /* UsersCell.swift */; };
+		882A96D91EFE1F8E00333EF5 /* UsersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882A96D71EFE1F8E00333EF5 /* UsersCell.xib */; };
+		882A971E1EFEE86500333EF5 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882A971D1EFEE86500333EF5 /* StringHelper.swift */; };
+		882A97201EFEE88100333EF5 /* DeviceProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882A971F1EFEE88100333EF5 /* DeviceProfile.swift */; };
+		8838FED21ED565350074E869 /* PersonalInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838FED11ED565350074E869 /* PersonalInfoVC.swift */; };
+		8838FED61ED91FF30074E869 /* customedata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838FED51ED91FF30074E869 /* customedata.swift */; };
+		8838FED81ED921C30074E869 /* circularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838FED71ED921C30074E869 /* circularView.swift */; };
 		88E600F71ED54B9300736140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E600F61ED54B9300736140 /* AppDelegate.swift */; };
 		88E600F91ED54B9300736140 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E600F81ED54B9300736140 /* ViewController.swift */; };
 		88E600FC1ED54B9300736140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E600FA1ED54B9300736140 /* Main.storyboard */; };
@@ -15,6 +45,11 @@
 		88E601041ED54B9300736140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E601021ED54B9300736140 /* LaunchScreen.storyboard */; };
 		88E6010F1ED54B9300736140 /* RingSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E6010E1ED54B9300736140 /* RingSocialTests.swift */; };
 		88E6011A1ED54B9300736140 /* RingSocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E601191ED54B9300736140 /* RingSocialUITests.swift */; };
+		88E9E2421EF215E500249DC1 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E9E2411EF215E500249DC1 /* UserNotifications.framework */; };
+		88E9E2441EF35D0400249DC1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9E2431EF35D0400249DC1 /* User.swift */; };
+		88E9E2461EF49ACF00249DC1 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9E2451EF49ACF00249DC1 /* VerificationViewController.swift */; };
+		88E9E2501EF5CE8600249DC1 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9E24F1EF5CE8600249DC1 /* CameraViewController.swift */; };
+		88E9E2541EF7555900249DC1 /* FilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9E2531EF7555900249DC1 /* FilterCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +70,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		166BD0FE7709EAC3734B5172 /* Pods-RingSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-RingSocial/Pods-RingSocial.release.xcconfig"; sourceTree = "<group>"; };
+		29276A658C7D828A529FFCE1 /* Pods-RingSocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingSocialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RingSocialUITests/Pods-RingSocialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D304BEBB258D1AB3B6964E3 /* Pods-RingSocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingSocialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RingSocialTests/Pods-RingSocialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A739968C80A0E5A34A116F5 /* Pods-RingSocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingSocialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RingSocialTests/Pods-RingSocialTests.release.xcconfig"; sourceTree = "<group>"; };
+		880D31BF1EF875A70070EF09 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		880D31C01EF875A70070EF09 /* Camera.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Camera.xib; sourceTree = "<group>"; };
+		880D31C31EF9A56F0070EF09 /* PostImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostImage.swift; sourceTree = "<group>"; };
+		880D31C71EFB42CB0070EF09 /* SnapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapVC.swift; sourceTree = "<group>"; };
+		880D31C81EFB42CB0070EF09 /* SnapVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapVC.xib; sourceTree = "<group>"; };
+		880D31CB1EFB45FC0070EF09 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		880D32111EFC73FA0070EF09 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		880D32131EFC74F60070EF09 /* FilterCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterCollectionViewCell.xib; sourceTree = "<group>"; };
+		880D32161EFC84620070EF09 /* SnapCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapCell.swift; sourceTree = "<group>"; };
+		880D32171EFC84620070EF09 /* SnapCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapCell.xib; sourceTree = "<group>"; };
+		880D321A1EFCCECC0070EF09 /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		880D321B1EFCCECC0070EF09 /* ChatVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatVC.xib; sourceTree = "<group>"; };
+		881EA2E51EF1F0D600F8986D /* RingSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RingSocial.entitlements; sourceTree = "<group>"; };
+		881EA2E61EF1F21E00F8986D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		882A96C81EFD906F00333EF5 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		882A96C91EFD906F00333EF5 /* ChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		882A96CC1EFD971900333EF5 /* ChatStoryViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatStoryViewCell.swift; sourceTree = "<group>"; };
+		882A96CD1EFD971900333EF5 /* ChatStoryViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatStoryViewCell.xib; sourceTree = "<group>"; };
+		882A96D01EFDC5EC00333EF5 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		882A96D21EFE0F7C00333EF5 /* TimeManagment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeManagment.swift; sourceTree = "<group>"; };
+		882A96D41EFE0FB400333EF5 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		882A96D61EFE1F8E00333EF5 /* UsersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersCell.swift; sourceTree = "<group>"; };
+		882A96D71EFE1F8E00333EF5 /* UsersCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsersCell.xib; sourceTree = "<group>"; };
+		882A971D1EFEE86500333EF5 /* StringHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
+		882A971F1EFEE88100333EF5 /* DeviceProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceProfile.swift; sourceTree = "<group>"; };
+		8838FED11ED565350074E869 /* PersonalInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoVC.swift; sourceTree = "<group>"; };
+		8838FED51ED91FF30074E869 /* customedata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customedata.swift; sourceTree = "<group>"; };
+		8838FED71ED921C30074E869 /* circularView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = circularView.swift; sourceTree = "<group>"; };
 		88E600F31ED54B9300736140 /* RingSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E600F61ED54B9300736140 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88E600F81ED54B9300736140 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +116,16 @@
 		88E601151ED54B9300736140 /* RingSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E601191ED54B9300736140 /* RingSocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingSocialUITests.swift; sourceTree = "<group>"; };
 		88E6011B1ED54B9300736140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E9E2411EF215E500249DC1 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		88E9E2431EF35D0400249DC1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		88E9E2451EF49ACF00249DC1 /* VerificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		88E9E24F1EF5CE8600249DC1 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		88E9E2531EF7555900249DC1 /* FilterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		A23C32E31CB0DAC410BEBCF0 /* Pods-RingSocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingSocialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RingSocialUITests/Pods-RingSocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5239ABBD92832E2DE95C214 /* Pods_RingSocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RingSocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B369E964A35122F08408D315 /* Pods-RingSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RingSocial/Pods-RingSocial.debug.xcconfig"; sourceTree = "<group>"; };
+		B9C85B3CADC49E8CCCD0C8A3 /* Pods_RingSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RingSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA87FE79C30F1FD0E65C3FEB /* Pods_RingSocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RingSocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +133,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E9E2421EF215E500249DC1 /* UserNotifications.framework in Frameworks */,
+				56DE5B049FE5294969943D0A /* Pods_RingSocial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377C9DB03644AA43BA5F7389 /* Pods_RingSocialTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +150,85 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25A0E2AE8D89B2929248DCEC /* Pods_RingSocialUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01CC1CCD9AE387472670BE51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B369E964A35122F08408D315 /* Pods-RingSocial.debug.xcconfig */,
+				166BD0FE7709EAC3734B5172 /* Pods-RingSocial.release.xcconfig */,
+				3D304BEBB258D1AB3B6964E3 /* Pods-RingSocialTests.debug.xcconfig */,
+				6A739968C80A0E5A34A116F5 /* Pods-RingSocialTests.release.xcconfig */,
+				A23C32E31CB0DAC410BEBCF0 /* Pods-RingSocialUITests.debug.xcconfig */,
+				29276A658C7D828A529FFCE1 /* Pods-RingSocialUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		043373D58E0D5B8CACE900FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88E9E2411EF215E500249DC1 /* UserNotifications.framework */,
+				B9C85B3CADC49E8CCCD0C8A3 /* Pods_RingSocial.framework */,
+				A5239ABBD92832E2DE95C214 /* Pods_RingSocialTests.framework */,
+				DA87FE79C30F1FD0E65C3FEB /* Pods_RingSocialUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		880D32151EFC84400070EF09 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				880D32161EFC84620070EF09 /* SnapCell.swift */,
+				882A96C81EFD906F00333EF5 /* ChatCell.swift */,
+				882A96CC1EFD971900333EF5 /* ChatStoryViewCell.swift */,
+				882A96D61EFE1F8E00333EF5 /* UsersCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		880D321E1EFCCED70070EF09 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				882A96D71EFE1F8E00333EF5 /* UsersCell.xib */,
+				880D31C81EFB42CB0070EF09 /* SnapVC.xib */,
+				880D321B1EFCCECC0070EF09 /* ChatVC.xib */,
+				880D32171EFC84620070EF09 /* SnapCell.xib */,
+				882A96C91EFD906F00333EF5 /* ChatCell.xib */,
+				882A96CD1EFD971900333EF5 /* ChatStoryViewCell.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		8838FED31ED91FC40074E869 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				881EA2E61EF1F21E00F8986D /* GoogleService-Info.plist */,
+				88E9E2431EF35D0400249DC1 /* User.swift */,
+				880D31C31EF9A56F0070EF09 /* PostImage.swift */,
+				882A96D01EFDC5EC00333EF5 /* Message.swift */,
+				882A96D21EFE0F7C00333EF5 /* TimeManagment.swift */,
+				882A971F1EFEE88100333EF5 /* DeviceProfile.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8838FED41ED91FCE0074E869 /* Custome */ = {
+			isa = PBXGroup;
+			children = (
+				8838FED51ED91FF30074E869 /* customedata.swift */,
+				8838FED71ED921C30074E869 /* circularView.swift */,
+				882A96D41EFE0FB400333EF5 /* DateExtension.swift */,
+				882A971D1EFEE86500333EF5 /* StringHelper.swift */,
+			);
+			name = Custome;
+			sourceTree = "<group>";
+		};
 		88E600EA1ED54B9300736140 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +236,8 @@
 				88E6010D1ED54B9300736140 /* RingSocialTests */,
 				88E601181ED54B9300736140 /* RingSocialUITests */,
 				88E600F41ED54B9300736140 /* Products */,
+				01CC1CCD9AE387472670BE51 /* Pods */,
+				043373D58E0D5B8CACE900FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +254,18 @@
 		88E600F51ED54B9300736140 /* RingSocial */ = {
 			isa = PBXGroup;
 			children = (
+				880D321E1EFCCED70070EF09 /* Xib */,
+				880D32151EFC84400070EF09 /* Cell */,
+				88E9E24A1EF5C25100249DC1 /* Camera */,
+				88E9E2471EF4E8B700249DC1 /* ViewController */,
+				881EA2E51EF1F0D600F8986D /* RingSocial.entitlements */,
+				8838FED41ED91FCE0074E869 /* Custome */,
+				8838FED31ED91FC40074E869 /* Model */,
 				88E600F61ED54B9300736140 /* AppDelegate.swift */,
-				88E600F81ED54B9300736140 /* ViewController.swift */,
 				88E600FA1ED54B9300736140 /* Main.storyboard */,
+				88E601051ED54B9300736140 /* Info.plist */,
 				88E601001ED54B9300736140 /* Assets.xcassets */,
 				88E601021ED54B9300736140 /* LaunchScreen.storyboard */,
-				88E601051ED54B9300736140 /* Info.plist */,
 				88E600FD1ED54B9300736140 /* RingSocial.xcdatamodeld */,
 			);
 			path = RingSocial;
@@ -128,6 +289,32 @@
 			path = RingSocialUITests;
 			sourceTree = "<group>";
 		};
+		88E9E2471EF4E8B700249DC1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				88E600F81ED54B9300736140 /* ViewController.swift */,
+				8838FED11ED565350074E869 /* PersonalInfoVC.swift */,
+				88E9E2451EF49ACF00249DC1 /* VerificationViewController.swift */,
+				880D31C71EFB42CB0070EF09 /* SnapVC.swift */,
+				880D31CB1EFB45FC0070EF09 /* ChatViewController.swift */,
+				880D32111EFC73FA0070EF09 /* MainVC.swift */,
+				880D321A1EFCCECC0070EF09 /* ChatVC.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		88E9E24A1EF5C25100249DC1 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				88E9E24F1EF5CE8600249DC1 /* CameraViewController.swift */,
+				88E9E2531EF7555900249DC1 /* FilterCollectionViewCell.swift */,
+				880D32131EFC74F60070EF09 /* FilterCollectionViewCell.xib */,
+				880D31BF1EF875A70070EF09 /* Camera.swift */,
+				880D31C01EF875A70070EF09 /* Camera.xib */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +322,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88E6011E1ED54B9300736140 /* Build configuration list for PBXNativeTarget "RingSocial" */;
 			buildPhases = (
+				39A24998F4B2E7F998F5DD6F /* [CP] Check Pods Manifest.lock */,
 				88E600EF1ED54B9300736140 /* Sources */,
 				88E600F01ED54B9300736140 /* Frameworks */,
 				88E600F11ED54B9300736140 /* Resources */,
+				21C22E2D547D937BBB5C0800 /* [CP] Embed Pods Frameworks */,
+				A13D084012F283FF8E2A8594 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +342,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88E601211ED54B9300736140 /* Build configuration list for PBXNativeTarget "RingSocialTests" */;
 			buildPhases = (
+				9E6D508DF59FBC1E1D37F601 /* [CP] Check Pods Manifest.lock */,
 				88E601061ED54B9300736140 /* Sources */,
 				88E601071ED54B9300736140 /* Frameworks */,
 				88E601081ED54B9300736140 /* Resources */,
+				E78EE536C6C88EF830F438DF /* [CP] Embed Pods Frameworks */,
+				2A17DC486ABE816F04537716 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +363,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88E601241ED54B9300736140 /* Build configuration list for PBXNativeTarget "RingSocialUITests" */;
 			buildPhases = (
+				316995269819BFF2F6155D0B /* [CP] Check Pods Manifest.lock */,
 				88E601111ED54B9300736140 /* Sources */,
 				88E601121ED54B9300736140 /* Frameworks */,
 				88E601131ED54B9300736140 /* Resources */,
+				15DB313A2300EDFBE143C52F /* [CP] Embed Pods Frameworks */,
+				E9FB95AA459999A044E70EED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,7 +392,19 @@
 				TargetAttributes = {
 					88E600F21ED54B9300736140 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AXT8UHAXWZ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					88E601091ED54B9300736140 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -235,9 +443,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882A96D91EFE1F8E00333EF5 /* UsersCell.xib in Resources */,
 				88E601041ED54B9300736140 /* LaunchScreen.storyboard in Resources */,
 				88E601011ED54B9300736140 /* Assets.xcassets in Resources */,
+				880D31CA1EFB42CB0070EF09 /* SnapVC.xib in Resources */,
+				880D32141EFC74F60070EF09 /* FilterCollectionViewCell.xib in Resources */,
+				880D321D1EFCCECC0070EF09 /* ChatVC.xib in Resources */,
+				880D31C21EF875A70070EF09 /* Camera.xib in Resources */,
+				881EA2E71EF1F21E00F8986D /* GoogleService-Info.plist in Resources */,
+				882A96CB1EFD906F00333EF5 /* ChatCell.xib in Resources */,
+				882A96CF1EFD971900333EF5 /* ChatStoryViewCell.xib in Resources */,
 				88E600FC1ED54B9300736140 /* Main.storyboard in Resources */,
+				880D32191EFC84620070EF09 /* SnapCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +474,174 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15DB313A2300EDFBE143C52F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RingSocialUITests/Pods-RingSocialUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21C22E2D547D937BBB5C0800 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RingSocial/Pods-RingSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A17DC486ABE816F04537716 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RingSocialTests/Pods-RingSocialTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		316995269819BFF2F6155D0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39A24998F4B2E7F998F5DD6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6D508DF59FBC1E1D37F601 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A13D084012F283FF8E2A8594 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RingSocial/Pods-RingSocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E78EE536C6C88EF830F438DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RingSocialTests/Pods-RingSocialTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9FB95AA459999A044E70EED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RingSocialUITests/Pods-RingSocialUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88E600EF1ED54B9300736140 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882A96D31EFE0F7C00333EF5 /* TimeManagment.swift in Sources */,
+				880D31C11EF875A70070EF09 /* Camera.swift in Sources */,
+				880D32121EFC73FA0070EF09 /* MainVC.swift in Sources */,
+				88E9E2501EF5CE8600249DC1 /* CameraViewController.swift in Sources */,
+				8838FED21ED565350074E869 /* PersonalInfoVC.swift in Sources */,
 				88E600F91ED54B9300736140 /* ViewController.swift in Sources */,
+				880D31C91EFB42CB0070EF09 /* SnapVC.swift in Sources */,
+				882A96CE1EFD971900333EF5 /* ChatStoryViewCell.swift in Sources */,
+				882A97201EFEE88100333EF5 /* DeviceProfile.swift in Sources */,
+				88E9E2461EF49ACF00249DC1 /* VerificationViewController.swift in Sources */,
+				880D321C1EFCCECC0070EF09 /* ChatVC.swift in Sources */,
+				88E9E2541EF7555900249DC1 /* FilterCollectionViewCell.swift in Sources */,
 				88E600F71ED54B9300736140 /* AppDelegate.swift in Sources */,
+				882A971E1EFEE86500333EF5 /* StringHelper.swift in Sources */,
+				8838FED81ED921C30074E869 /* circularView.swift in Sources */,
+				882A96CA1EFD906F00333EF5 /* ChatCell.swift in Sources */,
+				8838FED61ED91FF30074E869 /* customedata.swift in Sources */,
+				880D32181EFC84620070EF09 /* SnapCell.swift in Sources */,
+				882A96D81EFE1F8E00333EF5 /* UsersCell.swift in Sources */,
 				88E600FF1ED54B9300736140 /* RingSocial.xcdatamodeld in Sources */,
+				882A96D51EFE0FB400333EF5 /* DateExtension.swift in Sources */,
+				88E9E2441EF35D0400249DC1 /* User.swift in Sources */,
+				882A96D11EFDC5EC00333EF5 /* Message.swift in Sources */,
+				880D31C41EF9A56F0070EF09 /* PostImage.swift in Sources */,
+				880D31CC1EFB45FC0070EF09 /* ChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,11 +793,14 @@
 		};
 		88E6011F1ED54B9300736140 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B369E964A35122F08408D315 /* Pods-RingSocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RingSocial/RingSocial.entitlements;
+				DEVELOPMENT_TEAM = AXT8UHAXWZ;
 				INFOPLIST_FILE = RingSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hdentities.RingSocial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdentities.ringsocial23;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -428,11 +808,14 @@
 		};
 		88E601201ED54B9300736140 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 166BD0FE7709EAC3734B5172 /* Pods-RingSocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RingSocial/RingSocial.entitlements;
+				DEVELOPMENT_TEAM = AXT8UHAXWZ;
 				INFOPLIST_FILE = RingSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hdentities.RingSocial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdentities.ringsocial23;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -440,6 +823,7 @@
 		};
 		88E601221ED54B9300736140 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D304BEBB258D1AB3B6964E3 /* Pods-RingSocialTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +838,7 @@
 		};
 		88E601231ED54B9300736140 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A739968C80A0E5A34A116F5 /* Pods-RingSocialTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +853,7 @@
 		};
 		88E601251ED54B9300736140 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A23C32E31CB0DAC410BEBCF0 /* Pods-RingSocialUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RingSocialUITests/Info.plist;
@@ -481,6 +867,7 @@
 		};
 		88E601261ED54B9300736140 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29276A658C7D828A529FFCE1 /* Pods-RingSocialUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RingSocialUITests/Info.plist;
@@ -511,6 +898,7 @@
 				88E601201ED54B9300736140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88E601211ED54B9300736140 /* Build configuration list for PBXNativeTarget "RingSocialTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +907,7 @@
 				88E601231ED54B9300736140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88E601241ED54B9300736140 /* Build configuration list for PBXNativeTarget "RingSocialUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +916,7 @@
 				88E601261ED54B9300736140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

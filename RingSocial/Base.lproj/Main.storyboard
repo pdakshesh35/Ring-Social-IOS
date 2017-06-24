@@ -98,7 +98,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eiS-bD-TgE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-714" y="313"/>
+            <point key="canvasLocation" x="-700" y="222"/>
         </scene>
         <!--Verification View Controller-->
         <scene sceneID="kPx-qu-mSP">
@@ -210,7 +210,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vi3-oa-l4K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23" y="314"/>
+            <point key="canvasLocation" x="12" y="222"/>
         </scene>
         <!--Personal InfoVC-->
         <scene sceneID="qAC-U4-cLK">
@@ -348,7 +348,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="660" y="222"/>
+            <point key="canvasLocation" x="673" y="222"/>
         </scene>
         <!--Camera View Controller-->
         <scene sceneID="k0p-MD-EUx">
@@ -545,7 +545,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LHu-uY-9sG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1584.8" y="240.62968515742131"/>
+            <point key="canvasLocation" x="1372" y="222"/>
         </scene>
         <!--Chat View Controller-->
         <scene sceneID="VYr-uQ-Qvi">

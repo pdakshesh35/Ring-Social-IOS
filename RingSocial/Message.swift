@@ -20,16 +20,15 @@ class Message {
     var from : String
     var type : String
     var message : String
-    var time : String
+    var time : String?
     var to : String
     var image : UIImage?
     
-    init(from : String, type : Type, message : String, time : String, to : String) {
+    init(from : String, type : Type, message : String, to : String) {
         
         self.from = from
         self.type = type.rawValue
         self.message = message
-        self.time = time
         self.to = to
     }
     
@@ -40,7 +39,9 @@ class Message {
         self.type = snapshotValue[TYPE_KEY_FB] as! String
         self.message = snapshotValue[MESSAGE_KEY_FB] as! String
         self.to = snapshotValue[TO_KEY_FB] as! String
-        self.time = snapshotValue[TIMESTAMP_KEY_FB] as! String
+        
+        let timemanager = TimeManagment(date : snapshotValue[TIMESTAMP_KEY_FB] as! String)
+        self.time = timemanager.getTimeFormate()
         
         
     }
@@ -77,7 +78,8 @@ class Message {
         let post : NSDictionary = [FROM_KEY_FB : self.from,
                                    TYPE_KEY_FB : self.type,
                                    MESSAGE_KEY_FB : self.message,
-                                   TO_KEY_FB : self.to
+                                   TO_KEY_FB : self.to,
+                                   TIMESTAMP_KEY_FB : ServerValue.timestamp()
                                 ]
         
         

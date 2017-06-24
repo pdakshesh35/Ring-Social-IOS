@@ -25,6 +25,7 @@ var IDENTIFIERS_FILTER_CELL = "filterCellXib"
 var IDENTIFIERS_SNAP_CELL = "SnapCell"
 var IDENTIFIERS_CHAT_CELL = "ChatCell"
 var IDENTIFIERS_CHAT_STORY_CELL = "ChatStoryViewCell"
+var IDENTIFIERS_USER_CELL = "UserCell"
 
 
 //Userdefaults keys

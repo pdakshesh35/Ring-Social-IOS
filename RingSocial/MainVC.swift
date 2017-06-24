@@ -51,6 +51,10 @@ class MainVC: UIViewController {
         let mainView = CGPoint(x: self.view.frame.width, y: 0)
         self.scrollView.setContentOffset(mainView, animated: true)
         // Do any additional setup after loading the view.
+        
+        
+        var t = TimeManagment(date: "1496101820775")
+        print("daddasdasdasda" + t.getTimeFormate())
     }
 
     override func didReceiveMemoryWarning() {
