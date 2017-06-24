@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChatVC" customModule="RingSocial" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="ye9-Xc-2hx" id="bhh-xW-sRF"/>
+                <outlet property="storyCollectionView" destination="V7N-Ou-sxW" id="fHW-iL-ZCL"/>
+                <outlet property="storyview" destination="BqE-kd-U6g" id="WP6-oN-g9g"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BqE-kd-U6g">
+                    <rect key="frame" x="16" y="30" width="343" height="65"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="V7N-Ou-sxW">
+                            <rect key="frame" x="5" y="5" width="333" height="55"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="Pc5-yg-uZC"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aKo-Ti-8H2">
+                                <size key="itemSize" width="50" height="50"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="V7N-Ou-sxW" firstAttribute="leading" secondItem="BqE-kd-U6g" secondAttribute="leading" constant="5" id="6eu-LT-Eru"/>
+                        <constraint firstAttribute="trailing" secondItem="V7N-Ou-sxW" secondAttribute="trailing" constant="5" id="Pqc-iA-AIA"/>
+                        <constraint firstItem="V7N-Ou-sxW" firstAttribute="centerY" secondItem="BqE-kd-U6g" secondAttribute="centerY" id="T6X-Km-75W"/>
+                        <constraint firstAttribute="height" constant="65" id="kuU-ps-4SD"/>
+                        <constraint firstItem="V7N-Ou-sxW" firstAttribute="centerX" secondItem="BqE-kd-U6g" secondAttribute="centerX" id="uIN-qN-z9t"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ye9-Xc-2hx">
+                    <rect key="frame" x="16" y="103" width="343" height="564"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="K9h-Ht-yfy">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.75" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="BqE-kd-U6g" secondAttribute="trailing" constant="16" id="2JJ-vC-A9B"/>
+                <constraint firstAttribute="bottom" secondItem="ye9-Xc-2hx" secondAttribute="bottom" id="53o-Sk-V0K"/>
+                <constraint firstAttribute="trailing" secondItem="ye9-Xc-2hx" secondAttribute="trailing" constant="16" id="7mD-Lt-Bba"/>
+                <constraint firstItem="ye9-Xc-2hx" firstAttribute="top" secondItem="BqE-kd-U6g" secondAttribute="bottom" constant="8" id="LXZ-lc-6pL"/>
+                <constraint firstItem="ye9-Xc-2hx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="YA0-uk-C5w"/>
+                <constraint firstItem="BqE-kd-U6g" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="anK-ZE-r5e"/>
+                <constraint firstItem="BqE-kd-U6g" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="h1X-pc-ekD"/>
+            </constraints>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+        </view>
+    </objects>
+</document>
