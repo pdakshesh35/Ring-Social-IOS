@@ -53,9 +53,17 @@ class SnapVC: UIViewController, UICollectionViewDelegateFlowLayout, UICollection
     
     @IBAction func chat(_ sender: Any) {
     
-        let scrollPoint = CGPoint(x: self.view.frame.width * 2, y: 0)
+//        let scrollPoint = CGPoint(x: self.view.frame.width * 2, y: 0)
+//        
+//        self.scrollView.setContentOffset(scrollPoint, animated: true)
         
-        self.scrollView.setContentOffset(scrollPoint, animated: true)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        //identifier to the perticular viewcontroller
+        let initialViewController = storyboard.instantiateViewController(withIdentifier: "newvc")
+        self.present(initialViewController, animated: true, completion: nil)
+        
+
     }
     
 

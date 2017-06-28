@@ -20,6 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
        
+//        let profile = DeviceProfile()
+//        profile.initialization()
+//        
         if #available(iOS 10.0, *) {
             // For iOS 10 display notification (sent via APNS)
             UNUserNotificationCenter.current().delegate = self
@@ -40,22 +43,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         
         
          let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        if let personalinfo = UserDefaults.standard.value(forKey: PROFILEINFO_KEY) {
+        if let personalinfo = UserDefaults.standard.value(forKey: SIGNEDIN_KEY) {
             let initialViewController = storyboard.instantiateViewController(withIdentifier: STORYBOARD_MAINVC)
             
             self.window?.rootViewController = initialViewController
             self.window?.makeKeyAndVisible()
 
             
-        } else if let user = UserDefaults.standard.value(forKey: SIGNEDIN_KEY) {
-        
-            //once user signed in go to the certain view controller whenever app opens
-            //identifier to the perticular viewcontroller
-            let initialViewController = storyboard.instantiateViewController(withIdentifier: "personalinfovc")
-            
-            self.window?.rootViewController = initialViewController
-            self.window?.makeKeyAndVisible()
-
         }
         return true
     }

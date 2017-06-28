@@ -34,6 +34,9 @@
 		882A96D91EFE1F8E00333EF5 /* UsersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882A96D71EFE1F8E00333EF5 /* UsersCell.xib */; };
 		882A971E1EFEE86500333EF5 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882A971D1EFEE86500333EF5 /* StringHelper.swift */; };
 		882A97201EFEE88100333EF5 /* DeviceProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882A971F1EFEE88100333EF5 /* DeviceProfile.swift */; };
+		882A97221EFEE96000333EF5 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882A97211EFEE96000333EF5 /* Contacts.framework */; };
+		882A97241F000D6300333EF5 /* InitialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882A97231F000D6300333EF5 /* InitialVC.swift */; };
+		882F49B21F033CC10068A725 /* NewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882F49B11F033CC10068A725 /* NewVC.swift */; };
 		8838FED21ED565350074E869 /* PersonalInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838FED11ED565350074E869 /* PersonalInfoVC.swift */; };
 		8838FED61ED91FF30074E869 /* customedata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838FED51ED91FF30074E869 /* customedata.swift */; };
 		8838FED81ED921C30074E869 /* circularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838FED71ED921C30074E869 /* circularView.swift */; };
@@ -99,6 +102,9 @@
 		882A96D71EFE1F8E00333EF5 /* UsersCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsersCell.xib; sourceTree = "<group>"; };
 		882A971D1EFEE86500333EF5 /* StringHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
 		882A971F1EFEE88100333EF5 /* DeviceProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceProfile.swift; sourceTree = "<group>"; };
+		882A97211EFEE96000333EF5 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		882A97231F000D6300333EF5 /* InitialVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialVC.swift; sourceTree = "<group>"; };
+		882F49B11F033CC10068A725 /* NewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewVC.swift; sourceTree = "<group>"; };
 		8838FED11ED565350074E869 /* PersonalInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoVC.swift; sourceTree = "<group>"; };
 		8838FED51ED91FF30074E869 /* customedata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customedata.swift; sourceTree = "<group>"; };
 		8838FED71ED921C30074E869 /* circularView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = circularView.swift; sourceTree = "<group>"; };
@@ -133,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882A97221EFEE96000333EF5 /* Contacts.framework in Frameworks */,
 				88E9E2421EF215E500249DC1 /* UserNotifications.framework in Frameworks */,
 				56DE5B049FE5294969943D0A /* Pods_RingSocial.framework in Frameworks */,
 			);
@@ -173,6 +180,7 @@
 		043373D58E0D5B8CACE900FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				882A97211EFEE96000333EF5 /* Contacts.framework */,
 				88E9E2411EF215E500249DC1 /* UserNotifications.framework */,
 				B9C85B3CADC49E8CCCD0C8A3 /* Pods_RingSocial.framework */,
 				A5239ABBD92832E2DE95C214 /* Pods_RingSocialTests.framework */,
@@ -299,6 +307,8 @@
 				880D31CB1EFB45FC0070EF09 /* ChatViewController.swift */,
 				880D32111EFC73FA0070EF09 /* MainVC.swift */,
 				880D321A1EFCCECC0070EF09 /* ChatVC.swift */,
+				882A97231F000D6300333EF5 /* InitialVC.swift */,
+				882F49B11F033CC10068A725 /* NewVC.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -630,6 +640,7 @@
 				880D321C1EFCCECC0070EF09 /* ChatVC.swift in Sources */,
 				88E9E2541EF7555900249DC1 /* FilterCollectionViewCell.swift in Sources */,
 				88E600F71ED54B9300736140 /* AppDelegate.swift in Sources */,
+				882A97241F000D6300333EF5 /* InitialVC.swift in Sources */,
 				882A971E1EFEE86500333EF5 /* StringHelper.swift in Sources */,
 				8838FED81ED921C30074E869 /* circularView.swift in Sources */,
 				882A96CA1EFD906F00333EF5 /* ChatCell.swift in Sources */,
@@ -639,6 +650,7 @@
 				88E600FF1ED54B9300736140 /* RingSocial.xcdatamodeld in Sources */,
 				882A96D51EFE0FB400333EF5 /* DateExtension.swift in Sources */,
 				88E9E2441EF35D0400249DC1 /* User.swift in Sources */,
+				882F49B21F033CC10068A725 /* NewVC.swift in Sources */,
 				882A96D11EFDC5EC00333EF5 /* Message.swift in Sources */,
 				880D31C41EF9A56F0070EF09 /* PostImage.swift in Sources */,
 				880D31CC1EFB45FC0070EF09 /* ChatViewController.swift in Sources */,

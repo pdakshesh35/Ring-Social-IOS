@@ -28,6 +28,7 @@ var IDENTIFIERS_CHAT_STORY_CELL = "ChatStoryViewCell"
 var IDENTIFIERS_USER_CELL = "UserCell"
 
 
+
 //Userdefaults keys
 var SIGNEDIN_KEY = "signin"
 var PROFILEINFO_KEY = "profileinfo"
@@ -35,12 +36,12 @@ var VERIFICATIONID_KEY = "authVerificationID"
 var PHONENUMBER_KEY = "phonenumber"
 var IMAGE_KEY = "tempimage"
 
-
 //SegueIdentifiers
 var SEGUE_VIEWCONTROLLER_VERIFICATION = "ViewToVerification"
 var SEGUE_VERIFY_PERSONAL = "VerifyToPersonalInfo"
 var SEGUE_PERSONAL_MAIN = "PersonalToMain"
-
+var SEGUE_MAIN_SIGNUP = "MainToSignUp"
+var SEGUE_VIEW_MAIN = "ViewToMain"
 
 //FirebaseKeys
 var UID_KEY_FB = "uid"
@@ -53,6 +54,8 @@ var FROM_KEY_FB = "from"
 var TYPE_KEY_FB = "type"
 var MESSAGE_KEY_FB = "message"
 var TO_KEY_FB = "to"
+var EMAIL_KEY_FB = "email"
+var PASSWORD_KEY_FB = "password"
 
 //Country Code
  func getCountryPhonceCode (_ country : String) -> String
@@ -386,6 +389,14 @@ func getImageUrl(link : String) -> String {
 }
 
 extension UIView {
+    
+    func CircularViewWithBorders(cornerRadius : CGFloat, borderWidth : CGFloat) {
+        self.layer.masksToBounds = true;
+        self.layer.cornerRadius = cornerRadius;
+        self.backgroundColor = UIColor.clear
+        self.layer.borderColor = UIColor.white.cgColor
+        self.layer.borderWidth = borderWidth
+    }
     func circularControl( cornerRadius : CGFloat)  {
         self.layer.masksToBounds = true;
         self.layer.cornerRadius = cornerRadius;

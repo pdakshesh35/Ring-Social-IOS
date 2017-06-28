@@ -31,6 +31,9 @@ class PersonalInfoVC: UIViewController, CameraDelegate {
     @IBOutlet weak var username: UITextField!
     
     
+    var emailId : String!
+    var password : String!
+    
     var img : UIImage!
     
     var cameraViewController : CameraViewController!
@@ -66,7 +69,7 @@ class PersonalInfoVC: UIViewController, CameraDelegate {
         
         
        //post image to imageshach
-        let user = Auth.auth().currentUser!
+       // let user = Auth.auth().currentUser!
         
         
         
@@ -84,7 +87,7 @@ class PersonalInfoVC: UIViewController, CameraDelegate {
             // UserDefaults.standard.set(nil, forKey: IMAGE_KEY)
         }
        
-        UserDefaults.standard.set(user.uid, forKey: SIGNEDIN_KEY)
+       // UserDefaults.standard.set(user.uid, forKey: SIGNEDIN_KEY)
         bgView.circularControl(cornerRadius: 10)
         
         
@@ -129,9 +132,18 @@ class PersonalInfoVC: UIViewController, CameraDelegate {
     @IBAction func update(_ sender: Any) {
         
         
-        let user = Auth.auth().currentUser!
-        let userData = User(name: fullname.text!   , uid: user.uid  , username: username.text!, phonenumber: UserDefaults.standard.value(forKey: PHONENUMBER_KEY) as! String)
-        userData.uploadData(viewController: self, profileImage: tempImage.image!)
+        
+        let profile = DeviceProfile()
+        profile.initialization()
+
+        let userData = User(name: self.fullname.text!, email : emailId, password : password  , username: self.username.text!)
+                userData.uploadData(viewController: self, profileImage: self.tempImage.image!)
+                
+                
+            
+        }
+        
+        
         
         
         
@@ -140,6 +152,6 @@ class PersonalInfoVC: UIViewController, CameraDelegate {
          
         
         
-    }
+
     
 }

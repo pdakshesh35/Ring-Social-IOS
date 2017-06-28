@@ -91,6 +91,8 @@ class Camera: UIViewController, UIImagePickerControllerDelegate, UINavigationCon
         //        intializeCameraView(backCamera: backCamera)
         
         //capture button give a radius
+        backCamera = getDevice(position: .front)
+        intializeCameraView(backCamera: backCamera)
         captureBtnView.circularControl(cornerRadius: 25)
         
         
@@ -107,6 +109,12 @@ class Camera: UIViewController, UIImagePickerControllerDelegate, UINavigationCon
         closeview.circularControl(cornerRadius: 15)
         cameraFetures.circularControl(cornerRadius: 10)
         
+        
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        self.previewLayer?.frame = self.cameraView.bounds
         
     }
     
@@ -135,16 +143,16 @@ class Camera: UIViewController, UIImagePickerControllerDelegate, UINavigationCon
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        self.view.backgroundColor = UIColor.red
+       
+        //self.view.backgroundColor = UIColor.red
         
         
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        backCamera = getDevice(position: .back)
-        intializeCameraView(backCamera: backCamera)
+//        backCamera = getDevice(position: .front)
+//        intializeCameraView(backCamera: backCamera)
         // flashOff(device: backCamera)
         
     }
@@ -184,7 +192,8 @@ class Camera: UIViewController, UIImagePickerControllerDelegate, UINavigationCon
                     previewLayer?.connection.videoOrientation = AVCaptureVideoOrientation.portrait
                     cameraView.layer.addSublayer(previewLayer!)
                     captureSession?.startRunning()
-                    self.previewLayer?.frame = self.cameraView.bounds
+                    
+                    
                 }
             }
             
@@ -311,6 +320,7 @@ class Camera: UIViewController, UIImagePickerControllerDelegate, UINavigationCon
             
             backCamera = getDevice(position: .back)!
             intializeCameraView(backCamera: backCamera)
+            
         } else if (backCamera.position == AVCaptureDevicePosition.back) {
             
             backCamera = getDevice(position: .front)!
@@ -321,7 +331,7 @@ class Camera: UIViewController, UIImagePickerControllerDelegate, UINavigationCon
             backCamera = getDevice(position: .back)!
             intializeCameraView(backCamera: backCamera)
         }
-        
+        self.previewLayer?.frame = self.cameraView.bounds
     }
     
     //camera button to switch is being clicked

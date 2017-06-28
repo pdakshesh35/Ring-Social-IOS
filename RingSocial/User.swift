@@ -23,21 +23,23 @@ import Alamofire
  */
 class User {
     var name : String
-    var uid : String
+    var uid : String?
+    var email : String
     var username : String
-    var phonenumber : String
+    var phonenumber : String?
     var profilePic : String?
+    var password : String
     var time   = ServerValue()
     
     
     
     
-    init( name : String, uid : String, username : String, phonenumber : String) {
+    init( name : String, email : String, password : String, username : String) {
         
         self.name = name
-        self.uid = uid
+        self.email = email
         self.username = username.lowercased()
-        self.phonenumber = phonenumber
+        self.password = password
         
         
     }
@@ -46,9 +48,11 @@ class User {
     init(snapshot: DataSnapshot) {
         let snapshotValue = snapshot.value as! [String: Any]
         self.name = snapshotValue[NAME_KEY_FB] as! String
+        self.email = snapshotValue[EMAIL_KEY_FB] as! String
+        self.password = snapshotValue[PASSWORD_KEY_FB] as! String
         self.uid = snapshotValue[UID_KEY_FB] as! String
         self.username = snapshotValue[USERNAME_KEY_FB] as! String
-        self.phonenumber = snapshotValue[PHONENUMBER_KEY_FB] as! String
+        //self.phonenumber = snapshotValue[PHONENUMBER_KEY_FB] as! String
         self.profilePic = snapshotValue[PROFILEPIC_KEY_FB] as! String
        
         
@@ -69,12 +73,29 @@ class User {
                     if snapshot.hasChild(self.username) {
                         //username already exsits
                         AlertMessage(title: "Username Already exists", message: "Try a unique username with atleast 5 charachter long!", viewController: viewController)
-                
+                            return
                     } else {
-                        //username does not exsits
-                        self.PostData(image: profileImage)
-                        viewController.performSegue(withIdentifier: SEGUE_PERSONAL_MAIN, sender: viewController)
-                        UserDefaults.standard.setValue(self.uid, forKey: PROFILEINFO_KEY)
+                        
+                         //username does not exsits
+                        Auth.auth().createUser(withEmail: self.email, password: self.password) { (user, error) in
+                            if(error != nil) {
+                                AlertMessage(title: "Sign Up", message: (error?.localizedDescription)!, viewController: viewController)
+                                return
+                            } else {
+                                user?.sendEmailVerification(completion: { (error) in
+                                    if (error != nil) {
+                                        AlertMessage(title: "Email error", message: (error?.localizedDescription)!, viewController: viewController)
+                                        return
+                                    }
+                                })
+                                
+                                self.uid = user?.uid
+                                self.PostData(image: profileImage)
+                                viewController.dismiss(animated: true, completion: nil)
+
+                            }
+                        }
+                       
                     }
                 })
         }
@@ -112,14 +133,15 @@ class User {
         let post : NSDictionary = [NAME_KEY_FB : self.name,
                                    UID_KEY_FB : self.uid,
                                    USERNAME_KEY_FB : self.username,
-                                   PHONENUMBER_KEY_FB : self.phonenumber,
+                                   EMAIL_KEY_FB : self.email,
+                                   PASSWORD_KEY_FB : self.password,
                                    PROFILEPIC_KEY_FB : imageLink,
                                    TIMESTAMP_KEY_FB : ServerValue.timestamp()
                                    ]
         
         var ref = Database.database().reference()
         
-        ref.child("User").child(self.uid).setValue(post)
+        ref.child("User").child(self.uid!).setValue(post)
         ref.child("usernames").child(self.username).setValue(self.uid)
     }
 }

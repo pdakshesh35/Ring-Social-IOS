@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class MainVC: UIViewController {
 
@@ -18,10 +19,19 @@ class MainVC: UIViewController {
         let v2 : SnapVC = SnapVC(nibName: "SnapVC", bundle: nil)
         let v3 : ChatVC = ChatVC(nibName: "ChatVC", bundle: nil)
         
+        
+        AVCaptureDevice.requestAccess(forMediaType: AVMediaTypeVideo) { response in
+            if response {
+                //access granted
+               
+            } else {
+                
+                
+            }
+        }
         self.addChildViewController(v1)
         self.scrollView.addSubview(v1.view)
         v1.didMove(toParentViewController: self)
-        
         
         
         self.addChildViewController(v2)
